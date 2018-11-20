@@ -1,4 +1,5 @@
 #Author: Gülsüm Budakoğlu
+#The count-the-1's test on a stream of bytes for quality of randomness
 import math 
 import time
 import numpy
