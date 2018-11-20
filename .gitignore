@@ -37,7 +37,7 @@ def count2(random_array):
         return 'randomness ıs suspıcıous'
     else:
         return 'randomness ıs bad'  
-    
+     
 random_array= numpy.random.randint(256,size=1000024) # i.e.1000024 random array contain byte(0-256)
 count2(random_array)
         
