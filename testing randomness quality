@@ -31,7 +31,7 @@ def count2(random_array):
     obs=allcount(random_array)
     a_len=len(random_array)
     exp=[37*a_len/256,56*a_len/256,70*a_len/256,56*a_len/256,37*a_len/256]
-    if (chisquare(obs,exp).pvalue)<0.05:            # I take 0.05 it is just my option.
+    if (chisquare(obs,exp).pvalue)<0.05:            # I take pi= 0.05 it is just my option.
         return 'randomness ıs good'
     elif (chisquare(obs,exp).pvalue)<0.2:
         return 'randomness ıs suspıcıous'
